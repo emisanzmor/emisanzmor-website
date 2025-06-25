@@ -1,0 +1,209 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  letter-spacing: -2px;
+  margin: 0 0 2rem 0;
+  line-height: 1;
+}
+
+.logo-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: -4px;
+  margin: 2rem 2rem 0 2rem;
+}
+
+.logosubtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0.05rem 0 0 2rem;
+  letter-spacing: 0px;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+  margin-top: 1.5rem;
+  margin-right: 5.5rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+  font-weight: 450;
+  letter-spacing: 0px;
+}
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6rem 2rem;
+}
+
+.hero h2 {
+  font-size: 15.1rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.1;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.projects {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6rem 2rem;
+}
+
+.projects h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -4px;
+  margin: 2rem 2rem 0 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 250px);
+  gap: 30px;
+  margin-top: 10rem;
+}
+
+.project-item {
+  background: #181818;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+}
+
+.about-me {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6rem 2rem;
+}
+
+.about-me h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -4px;
+  margin: 2rem 2rem 0 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.profile-socials {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #fff;
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.contact-description {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #bbb;
+  margin: 0.05rem 0 0 0.5rem;
+  letter-spacing: 0px;
+}
+
+.contact-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  margin-left: 0.2rem;
+  border-radius: 50%; /* Rounded profile pic */
+}
+
+.social-link {
+  color: #bbb;
+  font-size: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.socials-group {
+  align-items: flex-start;
+  margin-top: 1.5rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section:not(:first-of-type) {
+  border-top: 1px solid #222;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
