@@ -1,5 +1,5 @@
 # emisanzmor – Personal Portfolio Website
-
+ 
 This is the source code for my personal portfolio website, built to showcase my skills, experience, and projects as a mobile developer.
 
 ![emisanzmor-personalwebsitegif](https://github.com/user-attachments/assets/7515bffe-facc-43de-a74e-228162c4d058)
